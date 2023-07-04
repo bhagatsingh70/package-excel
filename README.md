@@ -3,15 +3,15 @@
 ## About project
 Generate excel/csv
 
-## Code
+## Command
 
  
-```
-composer install
+``` 
 
-composer require bhagat/excel:dev-master
-
-
+Run - composer require bhagat/excel:dev-master
+``` 
+## Code
+``` 
 web.php / Controller
 use App\Exports\ExportUser;
 Route::get('/excel', function(){
